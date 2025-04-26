@@ -1,11 +1,15 @@
+html{
+    background: linear-gradient(to top left, rgb(170, 141, 216), #3d4a5e);
+}
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
-    height: auto;
-    background: linear-gradient(to top left, rgb(170, 141, 216), #3d4a5e);
+    height:auto;
+    min-height: 100vh;
+    /* height: auto; */
+   
 }
 .title{
     font-size: 60px;
