@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to top left, rgb(170, 141, 216), #3d4a5e);
+}
+.title{
+    font-size: 60px;
+    font-family: Mooli;
+    padding: 20px;
+    color:rgb(221, 210, 95);
+}
+.main {
+    padding: 60px;
+    max-width: 500;
+    background-color: rgba(246, 242, 242, 0.4);
+    border-radius: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box__input {
+    width: 450px;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-family: Mooli;
+    font-weight: 700;
+    opacity: 40%;
+}
+
+.main__btn {
+    margin: 0px 10px;
+    padding: 14px 30px;
+    border-radius: 20px;
+    font-family: Mooli;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border: 2px solid transparent;
+    cursor: pointer;
+    background: linear-gradient(to top, rgb(108, 68, 171), rgb(122, 5, 5));
+}
+
+.main__btn:hover {
+    background-color: rgba(246, 242, 242, 0.4);
+    background: linear-gradient(to top, rgb(29, 29, 30), rgb(128, 57, 57));
+    transform: scale(1.08);
+}
+
+.main__title {
+    font-family: Mooli;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+.main__list {
+    list-style: none;
+    width: 100%;
+}
+
+.main__item {
+    margin: 10px 0px;
+    padding: 0px 20px 0px 40px;
+    background: linear-gradient(to left, rgb(27, 22, 22) 0%,rgb(67, 52, 52) 10%, rgb(163, 239, 174) 40%,rgb(62, 241, 95) 100%);
+    border-radius: 20px;
+    width: 400px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main__text {
+    width: 280px;
+    font-family: Mooli;
+    font-size: 18px;
+    font-weight: 700;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    white-space: normal;
+    color: #000000;
+}
+
+.main__box {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.main__box:hover {
+    background-color: red;
+}
+
+.main__pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.main__pic:hover {
+    filter: drop-shadow(0px 0px 20px rgb(221, 11, 53));
+}
+.main__element{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+}
+.main__checkbox{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -5px;
+    left: 5px;
+}
