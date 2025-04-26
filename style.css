@@ -36,7 +36,7 @@ body {
 }
 
 .main__btn {
-    margin: 0px 10px;
+    margin: 0px 0px 0px 10px;
     padding: 14px 30px;
     border-radius: 20px;
     font-family: Mooli;
@@ -60,9 +60,11 @@ body {
     font-size: 40px;
 }
 
-form {
+.main__form{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .main__list {
@@ -129,4 +131,44 @@ form {
     position: absolute;
     top: -5px;
     left: 5px;
+}
+
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 40px; /* Kichik ekranlarda font o'lchamini kamaytiramiz */
+    }
+
+    .main {
+        padding: 40px;
+    }
+
+    .box__input {
+        width: 100%; /* Input kengligini 100% qilib beramiz */
+        font-size: 14px; /* Matn o'lchamini kichraytiramiz */
+    }
+
+    .main__btn {
+        padding: 12px 25px; /* Tugma o'lchamini kichraytiramiz */
+    }
+
+    .main__list {
+        padding: 0; /* List elementining ichki bo'shlig'ini yo'q qilamiz */
+    }
+
+    .main__item {
+        width:350px; /* Element kengligini 100% qilib beramiz */
+        padding: 10px;
+    }
+
+    .main__text {
+        width: 220px;
+        font-size: 16px; /* Matn o'lchamini kichraytiramiz */
+    }
+
+    .main__checkbox {
+        width: 30px;
+        height: 30px;
+    }
 }
