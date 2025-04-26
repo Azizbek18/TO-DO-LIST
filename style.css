@@ -145,30 +145,59 @@ body {
     }
 
     .box__input {
-        width: 100%; /* Input kengligini 100% qilib beramiz */
-        font-size: 14px; /* Matn o'lchamini kichraytiramiz */
+        width: 100%;
+        font-size: 14px; 
     }
 
     .main__btn {
-        padding: 12px 25px; /* Tugma o'lchamini kichraytiramiz */
+        padding: 12px 25px; 
     }
 
     .main__list {
-        padding: 0; /* List elementining ichki bo'shlig'ini yo'q qilamiz */
+        padding: 0; 
     }
 
     .main__item {
-        width:350px; /* Element kengligini 100% qilib beramiz */
+        width:350px;
         padding: 10px;
     }
 
     .main__text {
         width: 220px;
-        font-size: 16px; /* Matn o'lchamini kichraytiramiz */
+        font-size: 16px; 
     }
 
     .main__checkbox {
         width: 30px;
         height: 30px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .box__input {
+        width: 100%;
+        font-size: 16px; 
+    }
+
+    .main__btn {
+        padding: 10px 20px;
+    }
+
+    .main__item {
+        width: 320px;
+        padding: 8px;
+    }
+
+    .main__text {
+        font-size: 14px;
     }
 }
