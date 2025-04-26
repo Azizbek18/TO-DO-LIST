@@ -82,7 +82,7 @@ body {
     padding: 0px 20px 0px 40px;
     background: linear-gradient(to left, rgb(27, 22, 22) 0%,rgb(67, 52, 52) 10%, rgb(163, 239, 174) 40%,rgb(62, 241, 95) 100%);
     border-radius: 20px;
-    width: 400px;
+    width: 550px;
     height: 55px;
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ body {
 }
 
 .main__text {
-    width: 280px;
+    width: 400px;
     font-family: Mooli;
     font-size: 18px;
     font-weight: 700;
