@@ -4,6 +4,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    height: auto;
     background: linear-gradient(to top left, rgb(170, 141, 216), #3d4a5e);
 }
 .title{
